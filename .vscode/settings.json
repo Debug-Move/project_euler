@@ -1,0 +1,14 @@
+{
+    "python.testing.pytestArgs": [
+        "--doctest-modules",
+        "--doctest-report",
+        "ndiff"
+    ],
+    "python.testing.pytestEnabled": true,
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "ruff.lineLength": 90
+}
